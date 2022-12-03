@@ -1,0 +1,55 @@
+@mixin headTitle() {
+	padding: 10px;
+	font-size: 24px;
+	color: $sec_color;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@mixin headText() {
+	font-size: 20px;
+	color: $sec_color;
+	text-align: center;
+}
+
+@mixin numericalInput() {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid $sec_color;
+	border-radius: 8px;
+	background-color: $main_color_transparent;
+	color: $sec_color;
+}
+
+@mixin labelText() {
+	display: block;
+	margin-bottom: 5px;
+	width: 100%;
+	font-size: 16px;
+	color: $sec_color;
+}
+
+@mixin resultText() {
+	display: none;
+	margin-bottom: 5px;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	color: $sec_color;
+}
+
+@mixin buttonStyle() {
+	display: block;
+	margin: 10px auto;
+	font-size: 16px;
+	padding: 20px 10px;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	color: $main_color;
+	background-color: $sec_color;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}

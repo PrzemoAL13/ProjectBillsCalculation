@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>BillsCalculator</title>
+</head>
+
+<body>
+
+   <div class="section">
+        <div class="section__head">
+            <h1 class="section__head__title">BILLS CALCULATION</h1>
+            <p class="section__head__text">Split your bills!</p>
+        </div>
+
+       <div class="section__main">
+
+           <label for="price" class="section__main__price">Price value:</label>
+           <input type="number" class="section__main__price-input" id="price">
+          
+           <label for="people" class="section__main__people">Number of people:</label>
+           <input type="number" class="section__main__people-input" id="people">
+           
+           <label for="tip" class="section__main__tip">Tip:</label>
+           <select class="section__main__tip-select" id="tip">
+                <option value="0" disabled selected>--choose your tip --</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.2">20%</option>
+                <option value="0.25">25%</option>
+           </select>
+
+
+           <button class="section__main__button">calculate</button>
+           <p class="section__main__error"></p>
+           <p class="section__main__result">You should pay: <span class="section__main__result__cost"></span> $ </p>
+           
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

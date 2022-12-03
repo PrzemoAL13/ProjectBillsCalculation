@@ -136,4 +136,8 @@ body {
   font-size: 16px;
   text-align: center;
   color: #2b3a55;
+}
+.section__main__result__cost {
+  text-decoration: underline;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */

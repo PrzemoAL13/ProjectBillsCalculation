@@ -73,7 +73,6 @@ body {
 
 		&__tip-select {
 			@include numericalInput;
-			
 		}
 
 		&__button {
@@ -93,6 +92,11 @@ body {
 
 		&__result {
 			@include resultText;
+
+			&__cost {
+				text-decoration: underline;
+				font-weight: 700;
+			}
 		}
 	}
 }

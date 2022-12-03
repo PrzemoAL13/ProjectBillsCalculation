@@ -23,7 +23,8 @@
 
             <label for="price" class="section__main__price">Price value:</label>
             <input type="number" class="section__main__price-input" id="price" placeholder="Enter price value..."
-                min="0" max="99999" onKeyUp="if(this.value>99){this.value='99';}else if(this.value<0){this.value='0';}">>
+                min="1" max="9999"
+                onKeyUp="if(this.value>9999){this.value='99';}else if(this.value<1){this.value='1';}">
 
             <label for="people" class="section__main__people">Number of people:</label>
             <input type="number" class="section__main__people-input" id="people">
@@ -39,7 +40,7 @@
 
 
             <button class="section__main__button">calculate</button>
-            <p class="section__main__error">error</p>
+            <p class="section__main__error">You should enter all parametrs!</p>
             <p class="section__main__result">You should pay: <span class="section__main__result__cost"></span> $ </p>
 
         </div>
